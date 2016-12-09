@@ -1,0 +1,210 @@
+/********************
+YOUR STYLES
+*******************/
+
+<<<<<<< HEAD
+/* Get Weather Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css");
+=======
+/* SECTION STYLING */
+
+    /* get weather icons */
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css");
+
+    .i {
+        color: #ECF0F1;
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    main {
+        background: white;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 20px;
+    
+        /* flexbox */
+            display: flex;
+            flex-flow: row wrap;
+    }
+
+    section {
+        background: #6b92da;
+        border-radius: 10px;
+        padding: 1em;
+        margin: 1em;
+        /* flexbox as child */
+            flex: 1 0 200px;
+        /* flexbox as parent */
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px black;
+        
+    }
+
+/* TEXT STYLING */
+
+    h1 {
+     background: rgba(255,255,255,0.3);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 5px;
+        
+    }
+
+    h3 {
+          background: rgba(255,255,255,0.3);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 5px;
+        
+    }
+
+    .bg-25,
+    .bg-26,
+    .bg-27 {
+      background: black;
+    }
+
+.spokane {
+    background-image: url(/img/cold.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.phoenix {
+    
+    background-image: url(/img/phoenix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.la {
+    
+    background-image: url(/img/hot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seattle {
+    
+    background-image: url(/img/seattle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.geo {
+    
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main {
+    background: white;
+    margin: 1em;
+    padding: 1em;
+    
+/*  Flexbox Layout  */
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section {
+    background: crimson;
+    padding: 1em;
+    margin: 1em;
+
+
+/* flexbox as child */
+    
+    flex: 1 0 200px;
+
+
+/* flexbox as parent */
+
+
+
+}
+
+.wi{
+    color: black;
+}
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Desktop */
+@media screen /* 2560px = 160em */
+  and (max-width: 160em)
+  /* 1280px = 80em */
+  and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. */
+<<<<<<< HEAD
+/*
+  body {
+       background: blue;
+  }
+*/
+=======
+
+
+
+}
+
+/* Tablet */
+@media screen 
+   /* 1279 = 79.9375em */  
+  and (max-width: 79.9375em)
+   /* 768px = 160em */
+  and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+<<<<<<< HEAD
+/*
+  body {
+       background: green;
+  }
+*/
+=======
+ 
+
+
+}
+
+/* Mobile */
+@media screen
+  /* 767px = 47.9375em */
+  and (max-width: 47.9375em)
+  /* 320px = 20em */
+  and (min-width: 20em) { 
+
+  /* Diagnostic Styling. */
+<<<<<<< HEAD
+/*
+	body {
+       background: red;
+=======
+
+>>>>>>> refs/remotes/origin/master
+	}
+*/
+	
+}
