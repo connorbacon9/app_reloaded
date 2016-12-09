@@ -74,28 +74,28 @@ YOUR STYLES
     }
 
 .spokane {
-    background-image: url(app_reloaded/img/cold.jpg);
+    background-image: url(../img/cold.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .phoenix {
     
-    background-image: url(app_reloaded/img/phoenix.jpg);
+    background-image: url(../img/phoenix.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .la {
     
-    background-image: url(app_reloaded/img/hot.jpg);
+    background-image: url(../img/hot.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .seattle {
     
-    background-image: url(app_reloaded/img/seattle.jpg);
+    background-image: url(../img/seattle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
